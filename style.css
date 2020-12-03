@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;400&display=swap');
 
+::selection {
+    color: rgb(229, 107, 111);
+    background: white;
+}
 * {
     margin: 0;
     padding: 0;
@@ -90,11 +94,6 @@ main {
     font-size: 2rem;
 }
 
-@media screen and (max-width:800px) {
-    .names {
-        font-size: 5rem;
-    }
-}
 
 .info {
     cursor: pointer;
@@ -114,6 +113,17 @@ main {
     box-shadow: 0px -4px 10px rgba(229, 107, 111, 0.5), 0px 4px 10px rgba(229, 107, 111, 0.5);
 }
 
+@media screen and (max-width:800px) {
+    .names {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .names {
+        font-size: 3.5rem;
+    }
+}
 
 
 
@@ -151,16 +161,21 @@ main {
     position: relative;
     animation-name: animatetop;
     animation-duration: 1s;
+    background-image: repeating-linear-gradient(45deg, rgba(252,191,73, 0.81) 0px, rgba(252,191,73, 0.81) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(135deg, rgba(252,191,73, 0.81) 0px, rgba(252,191,73, 0.81) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, rgb(239,239,239),rgb(239,239,239));
+}
+
+.modal-content p {
     text-align: justify;
     font-size: 1.8rem;
-    background-image: repeating-linear-gradient(45deg, rgba(252,191,73, 0.81) 0px, rgba(252,191,73, 0.81) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(135deg, rgba(252,191,73, 0.81) 0px, rgba(252,191,73, 0.81) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, rgb(239,239,239),rgb(239,239,239));
+    line-height: 1.4;
+    margin: 0.5rem 0;
 }
 
 /* The Close Button */
 .close {
     position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0rem;
+    right: 0.75rem;
     padding: 0 0.5rem;
     height: 4rem;
     cursor: pointer;
@@ -185,4 +200,16 @@ main {
         top: 0;
         opacity: 1
     }
+}
+
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    text-shadow: none;
+    color: #333333;
+}
+.footer a {
+    text-decoration: none;
+    color: crimson;
 }
