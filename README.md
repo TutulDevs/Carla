@@ -7,7 +7,3 @@ On May 15, 2021, she is going to begin her new life by marrying Aaron.
 It's a small gift to her on her wedding.
 
 ℹ️ If you visit the site after the date, you will miss the countdown timer.
-
-## Credit
-
-The background music was downloaded from [Ben Sound](https://www.bensound.com)

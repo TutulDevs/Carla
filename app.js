@@ -42,10 +42,3 @@ $('.info').addEventListener('click', () =>
 
 $('.close').addEventListener('click', () =>
     $('.modal').style.display = 'none');
-
-
-//////////////////////////
-////        Audio
-
-window.addEventListener('load', ()=>
-    $('.audio').play());
