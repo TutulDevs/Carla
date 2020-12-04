@@ -65,7 +65,7 @@ main {
 
 .names {
     font-size: 12rem;
-    font-family: 'Courgette', serif;
+    font-family: 'Courgette', cursive;
     font-weight: bolder;
     color: #fff;
     line-height: 1;
@@ -115,7 +115,7 @@ main {
 
 @media screen and (max-width:800px) {
     .names {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }
 
@@ -204,6 +204,7 @@ main {
 
 
 .footer {
+    font-size: 1.2rem;
     text-align: center;
     padding: 1rem;
     text-shadow: none;
